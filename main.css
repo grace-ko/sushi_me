@@ -1,0 +1,559 @@
+/* general */
+
+body,
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-align: center;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+@font-face {
+    font-family: "CarroisGothic";
+    src: url("CarroisGothic.ttf");
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ea37a6;
+    text-decoration: none;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div {
+    vertical-align: top;
+}
+
+
+/*//////////////// Nav ////////////////////*/
+
+.box-shadow {
+    -webkit-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 10px 5px -9px rgba(0, 0, 0, 0.34);
+}
+
+
+
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    z-index: 20;
+    background-color: white;
+}
+
+.nav-margin-right {
+    margin-right: 30px;
+}
+
+.logo {
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    width: 250px;
+}
+
+.navigation-right {
+    position: absolute;
+    right: 150px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+.scrolled-nav {
+    height: 50px;
+}
+
+.navigation-right-scrolled {
+    position: static;
+    margin-top: 20px;
+}
+
+
+/*//////////////// Main ////////////////////*/
+
+.main-page {
+    background: url('image/bcg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.explore {
+    background-color: #ea37a6;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    margin-top: -20px;
+}
+
+#menu {
+    clear: left;
+}
+
+.intro-text {
+    display: inline-block;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 300px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: "CarroisGothic";
+    letter-spacing: 2px;
+}
+
+.japanesecuisine {
+    margin-top: -40px;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 2px
+}
+
+.welcome {
+    font-size: 100px;
+    margin: 0;
+    font-family: "Sacramento";
+}
+
+
+/*//////////////// about ////////////////////*/
+
+.body {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#about {
+    overflow: auto;
+    margin-top: 0px;
+}
+
+.about-title {
+    color: #db0084;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 0px 15px 0px;
+    font-size: 18px;
+}
+
+.about-section {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+section {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.about-image {
+    float: left;
+    width: 31.33%;
+    height: 100%;
+    margin: 1%;
+}
+
+.description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.iframe-title {
+    margin-top: -5px;
+}
+
+.about-image img,
+iframe {
+    height: 250px;
+    width: 100%;
+}
+
+
+/*//////////////// menu ////////////////////*/
+
+#menu {
+    display: inline-block;
+}
+
+.download-menu {
+    width: 70%;
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.thai-salmon-clear {
+    clear: both;
+}
+
+.fav-dish {
+    width: 23%;
+    float: left;
+    margin: 1%;
+}
+
+.fav-menu {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.fav-dish img {
+    width: 100%;
+    height: 250px;
+}
+
+.seemore {
+    font-size: 22px;
+    width: 300px;
+    margin: auto;
+    border: black 1px solid;
+    padding: 10px;
+    clear: left;
+}
+
+.section-description {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.star {
+    width: 30px;
+}
+
+
+/*//////////////// Gallery ////////////////////*/
+
+#carouselExampleControls img {
+    width: 500px;
+  margin: auto;
+    height: 400px;
+}
+
+.arrow {
+   width: 64px !important;
+   height: 64px !important;
+}
+#gallery {
+ 
+   width: 100vw;
+}
+
+
+
+/*//////////////// Reviews ////////////////////*/
+
+#reviews {
+    height: 100%;
+}
+
+.review {
+    display: inline-block;
+    width: 29%;
+    border: 1px solid #ccc;
+    margin: 2%;
+    padding: 20px;
+}
+
+.rating-icon {
+    width: 100px;
+}
+
+.review-description {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+
+
+/*//////////////// meetus ////////////////////*/
+
+.meetus {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+.about-picture {
+    width: 400px;
+}
+
+
+/*//////////////// footer ////////////////////*/
+
+.copyright {
+    margin-bottom: 20px !important;
+}
+
+.logotwo {
+    width: 250px;
+}
+
+.footer-title {
+    color: #db0084;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+    padding: 15px 0px 15px 0px;
+    font-size: 18px;
+}
+
+
+.hr {
+height: 2px;
+color: #db0084;
+background-color: #db0084;
+border: none;
+width: 40%;
+margin-top: 100px;
+}
+
+.anchor {
+    display: block;
+    height: 100px;
+    /*same height as header*/
+    margin-top: -100px;
+    /*same height as header*/
+    visibility: hidden;
+    background-color: pink;
+}
+
+.opentimes {
+    background-color: pink;
+}
+
+.days {
+    float: left;
+    text-align: left;
+}
+
+.times {
+    float: right;
+    text-align: right;
+}
+
+.contact-section {
+    width: 100vw;
+    background-color: #e5e3e3;
+    display: inline-block;
+}
+
+.email {
+    width: 24px;
+}
+
+.contact {
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+    margin: 50px;
+}
+
+.contact-middle {
+    width: 30%;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hours-responsive {
+    display: none;
+}
+
+
+/* media query */
+
+@media (max-width: 1360px) {
+    .logo,
+    .navigation-right {
+        position: static;
+        margin: auto;
+    }
+    .navigation-right {
+        margin-top: 10px;
+    }
+    nav {
+        height: 130px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .fav-dish {
+        width: 46%;
+    }
+    .fav-dish img {
+        height: 300px;
+    }
+    .about-image {
+        width: 48%;
+    }
+    .contact,
+    .contact-middle {
+        width: 40%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1030px) {
+    .mushroom-clear {
+        clear: both;
+    }
+    .contact,
+    .contact-middle {
+        width: 50%;
+        margin: 0;
+    }
+    .explore {
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .body,
+    .review {
+        width: 60%;
+    }
+    .fav-dish,
+    .about-image {
+        width: 100%;
+    }
+    .about-image {
+        margin-bottom: 30px;
+    }
+    .about-image img,
+    iframe,
+    .fav-dish img {
+        height: 300px;
+    }
+    .meetus-section .body {
+        width: 100%;
+    }
+    .about-picture {
+        width: 300px;
+    }
+    .contact {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+   .body {
+    width: 90%;
+   }
+   .review, .fav-dish {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+    .navigation-right {
+        display: none;
+    }
+    nav {
+        height: 100px;
+    }
+    .body {
+        font-size: 18px;
+    }
+    .main-page {
+        background: url('image/bcg.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 450px) {
+    .welcome {
+        font-size: 80px;
+    }
+    #carouselExampleControls img {
+    width: 400px;
+  margin: auto;
+    height: 250px;
+}
+
+    .japanesecuisine {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .about-image img,
+    iframe,
+    .fav-dish img {
+        height: 250px;
+    }
+    .seemore {
+        width: 250px;
+    }
+    .patio {
+        margin-top: 20px;
+    }
+    .meetus-section {
+        margin-bottom: 50px;
+    }
+ 
+}
